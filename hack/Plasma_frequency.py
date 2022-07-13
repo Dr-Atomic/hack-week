@@ -1,14 +1,21 @@
 from astropy import units as u
 
-def plasma__frequency(1e19*u.m**-3, particle='p'):
+def plasma__frequency (1e19*u.m**-3, particle='p'):
     """
     Calculate the plasma frequency of a plasma with the given parameters.
     """
-    return (D+ / p) * (T / D)
+    n=1e19*u.m**-3
+    particle='p'
+    
+    return (B0 / B) * (Te / ne)
+
     
 def plasma__frequency__SI(1e19*u.m**-3, particle='p'):
     """
     Calculate the plasma frequency of a plasma with the given parameters.
     """
+    n=1e19*u.m**-3
+    particle='p'
+    
     return (B0 / B) * (Te / ne)
 

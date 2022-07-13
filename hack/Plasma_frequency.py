@@ -1,6 +1,6 @@
 import numpy as np
 from astropy import units as u
-from astropy.constants import c
+
 
 def plasma__frequency (1e19*u.m**-3, particle='p'):
     """
